@@ -32,7 +32,7 @@
 [-] Functions
     -Introduction
     -Variable Scope
-    -Parameters and Arguments
+    -Parameters, Arguments and default parameters
     -Invoked functions
         -Call by value
         -Call by pointer
