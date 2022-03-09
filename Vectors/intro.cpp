@@ -9,7 +9,7 @@ int main()
     vector<int> vec;
     // push the el in vector from back
     vec.push_back(5);
-    // assign the new vector to replacing old values
+    // assign the new vector to replacing old values.
     vec.assign(5, 39);
     // remove the last el from the back
     vec.pop_back();
