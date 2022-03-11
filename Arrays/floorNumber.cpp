@@ -20,7 +20,7 @@ int floorNum(int arr[], int sizeOfArr, int target)
 int main()
 {
     int arr[] = {1, 6, 7, 9, 12, 23};
-    int ans = floorNum(arr, 6, 10);
+    int ans = floorNum(arr, 6, 0);
     cout << ans << endl;
     return 0;
 }
