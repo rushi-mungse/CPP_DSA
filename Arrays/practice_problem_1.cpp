@@ -16,13 +16,15 @@ int nextGreatestLetter(int letters[], int size, char target)
         else
             start = mid + 1;
     }
-    return start;
+    // edge case
+    if (start == size) // start % size==0
+        return 0;
+    return start; // start % size
 }
-
 int main()
 {
     int letters[] = {'c', 'f', 'j'};
-    int ans = nextGreatestLetter(letters, 3, 'f');
+    int ans = nextGreatestLetter(letters, 3, 'j');
     cout << ans << endl;
     return 0;
 }
