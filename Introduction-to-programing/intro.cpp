@@ -4,6 +4,7 @@ using namespace std;
 int main()
 { // starting main function
 
+    cout << "Enter the value.." << endl;
     return 0; // return int value
 }
 
