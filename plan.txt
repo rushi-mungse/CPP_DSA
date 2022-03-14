@@ -1,35 +1,35 @@
 # DSA Bootcamp C++
-[-] Introduction to programing 
+[+] Introduction to programing 
     -Type of languages
-[-] Flow of the program
+[+] Flow of the program
     -Flowchart
     -Pseudocode
-[-] Introduction to C++
+[+] Introduction to C++
     -Introduction
     -How it work?
     -Enviroment setup
     -Input and output in c++
-[-] Data Type
+[+] Data Type
     -Primary data types
         -Modifiers data types
     -Dirived data type
     -User defined data type
-[-] Operators
+[+] Operators
     -Arithmetic Operaters
     -Comparison Operators
     -Assignment Operators
     -Bitwise Operators
     -Logical Operators
     -Miscellaneous Operators
-[-] Conditional Statements
+[+] Conditional Statements
     -if-else
     -switch statement
     -Break and Continue statements
-[-] Loops
+[+] Loops
     -while loop
     -do-while loop
     -for loop
-[-] Functions
+[+] Functions
     -Introduction
     -Variable Scope
     -Parameters, Arguments and default parameters
@@ -40,7 +40,7 @@
     -Overloading functions
     -Inline functions
     -Static variables
-[-] Arrays
+[+] Arrays
     -Introduction
     -Memory management
     -Input and Output
