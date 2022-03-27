@@ -25,16 +25,26 @@ void push(Node **head_ref, int data)
 
 void printNode(Node *head_ref)
 {
-    while (head_ref->next != NULL)
+    while (head_ref != NULL)
     {
         cout << head_ref->data << endl;
         head_ref = head_ref->next;
     }
-    while (head_ref->prev != NULL)
+}
+
+void pushAtEnd(Node **head_ref, int data)
+{
+    Node *temp = *head_ref;
+    Node *new_node = new Node();
+    new_node->data = data;
+    new_node->next = NULL;
+
+    while (temp->next != NULL)
     {
-        cout << head_ref->data << endl;
-        head_ref = head_ref->prev;
+        temp = temp->next;
     }
+    temp->next = new_node;
+    new_node->prev = temp;
 }
 
 int main()
@@ -44,6 +54,7 @@ int main()
     push(&head, 44);
     push(&head, 43);
     push(&head, 45);
+    pushAtEnd(&head, 23);
     printNode(head);
     return 0;
 }
