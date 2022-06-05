@@ -1,1 +1,0 @@
-  while (temp != NULL)
